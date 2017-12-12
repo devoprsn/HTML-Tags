@@ -1,16 +1,8 @@
 
-
 public class Italic extends WrapperTag{
 
 	public Italic(Tag base) 
 	{
-		super(base);
+		super(base, "i");
 	}
-
-	@Override
-	public String getDisplay() 
-	{
-		return null;
-	}
-
 }

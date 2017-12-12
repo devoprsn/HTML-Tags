@@ -1,16 +1,8 @@
 
-
 public class Strong extends WrapperTag{
 
 	public Strong(Tag base) 
 	{
-		super(base);
+		super(base, "strong");
 	}
-
-	@Override
-	public String getDisplay() 
-	{
-		return null;
-	}
-
 }
